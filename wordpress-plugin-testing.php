@@ -1,4 +1,13 @@
 <?php
+/*
+Plugin Name: WordPress plugin testing
+Plugin URI: https://wordpress.org/plugins/mag-products-integration/
+Description: Sample WordPress plugin to see how testing works.
+Version: 1.0.0
+Requires at least: 4.0
+Author: Francis Santerre
+Author URI: http://santerref.com/
+*/
 
 require 'autoload.php';
 
