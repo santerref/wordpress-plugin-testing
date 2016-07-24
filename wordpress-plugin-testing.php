@@ -15,7 +15,7 @@ if ( ! function_exists( 'wordpress_plugin_testing' ) ) {
 
 	/**
 	 * Function to get the instance of the plugin.
-	 * This allows other developers to remove or alter our filters and actions functions.
+	 * This allows developers to remove or alter the plugin's filters and actions functions.
 	 *
 	 * @return \wordpress_plugin_testing\Plugin_Singleton
 	 */
