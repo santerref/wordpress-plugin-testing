@@ -7,6 +7,7 @@ class Plugin_SingletonTest extends \WP_UnitTestCase {
 	function test_get_instance() {
 		$instance = Plugin_Singleton::get_instance();
 
+		$this->assertTrue( $instance instanceof Plugin_Singleton );
 		$this->assertTrue( $instance instanceof Plugin );
 	}
 
