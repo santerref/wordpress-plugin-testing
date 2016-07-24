@@ -4,7 +4,7 @@ namespace wordpress_plugin_testing;
 
 abstract class Plugin {
 
-	public function __construct() {
+	protected function __construct() {
 
 	}
 
@@ -20,6 +20,9 @@ final class Plugin_Singleton extends Plugin {
 		}
 
 		return self::$instance;
+	}
+
+	private function __clone() {
 	}
 
 }
